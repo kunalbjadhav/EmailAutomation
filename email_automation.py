@@ -9,8 +9,8 @@ import time
 import datetime
 
 ## 01
-Email = "nikhij1997@gmail.com"   # sender gmail
-Key = "kljd xnlo lwkd zygn"      # app password
+Email = os.getenv("SENDER_EMAIL") # Sender email
+Key = os.getenv("APP_PASSWORD")      # app password
 
 ## 02
 reciver = ["jkunal121@gmail.com"]
